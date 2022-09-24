@@ -1,17 +1,41 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-#wrapper {
-    width: 720px;
-    position: relative;
-    left: 50%;
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: bisque;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1,5;
+   color: black
   }
-  
-#footer {
-    clear: both;
+
+*{
+   box-sizing: border-box;
+  }
+
+.main-container {
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  section {
+   width: 50%;
+  }
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+  }
+ @media (max-width: 768px) {
+section { 
+   width: 100%;
+  }
+  } 
+footer {
+   clear: both;
   }
