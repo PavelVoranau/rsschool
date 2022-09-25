@@ -14,6 +14,10 @@ body {
    color: black
   }
 
+header {
+  background-color:rgb(220, 244, 245); 
+}
+
 *{
    box-sizing: border-box;
   }
@@ -22,24 +26,20 @@ body {
    display: flex;
    flex-wrap: wrap;
   }
-  
-  img {
-   border-radius: 50%;
-  }
-
-.section {
-   width: 50%;
-  }
+ul { 
+  text-align: left;
+}
+img {
+   border-radius: 35%;
+}
 
 .container {
    max-width: 1440px;
    margin: 0 auto;
   }
- @media (max-width: 768px) {
-section { 
-   width: 100%;
-  }
-  } 
+
 footer {
    clear: both;
+   height: 100px;
+   width: 100px;
   }
